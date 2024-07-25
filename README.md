@@ -30,3 +30,9 @@ A Flutter Weather App.
   ```
   dart run build_runner watch --delete-conflicting-outputs
   ```
+
+### Build APK
+
+```
+flutter build apk
+```
