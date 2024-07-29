@@ -2,6 +2,8 @@
 
 A Flutter Weather App.
 
+![Mausam screenshot](./images/mausam-ss.jpg)
+
 ## Getting Started
 
 - Get packages
@@ -12,7 +14,7 @@ A Flutter Weather App.
   ```
   cp .env.example .env
   ```
-- Add your OpenWeather API key to .env file
+- Add your 5 Day / 3 hour forecast OpenWeather API key to .env file
 - Run the app
   ```
   flutter run
