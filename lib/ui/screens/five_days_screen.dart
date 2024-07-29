@@ -56,9 +56,11 @@ class FiveDaysScreen extends ConsumerWidget {
                       )
                     ],
                   ),
-                  TodayForecastCard(
-                    forecast: forecast.list[0],
-                    city: forecast.city,
+                  Expanded(
+                    child: TodayForecastCard(
+                      forecast: forecast.list[0],
+                      city: forecast.city,
+                    ),
                   ),
                 ],
               )),

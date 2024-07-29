@@ -25,7 +25,6 @@ class TodayForecastCard extends StatelessWidget {
       elevation: 20,
       child: Container(
         padding: const EdgeInsets.all(12),
-        height: 200,
         decoration: BoxDecoration(
           color: kBackgroundLight,
           borderRadius: BorderRadius.circular(20),
